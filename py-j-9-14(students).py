@@ -36,38 +36,22 @@ while True:
         if 11<=score_<12 :
             print("your score is C.")
             break
-    if 8<=score_<11 :
-        if 10.5<=score_<11 :
+    if 10<=score_<11 :
+        if 10.75<=score_<11 :
             print("your score is D++.")
             break
-        if 9<=score_<10.5 :
+        if 10.5<=score_<10.75 :
             print("your score is D+.")
             break
-        if 8<=score_<9 :
+        if 10<=score_<10.5 :
             print("your score is D.")
             break
-    if 5<=score_<8 :
-        if 7.5<=score_<8 :
-            print("your score is E++.")
-            break
-        if 6<=score_<7.5 :
-            print("your score is E+.")
-            break
-        if 5<=score_<6 :
-            print("your score is E.")
-            break
-    if 2<=score_<5 :
-        if 4.5<=score_<5 :
-            print("your score is F++.")
-            break
-        if 3<=score_<4.5 :
-            print("your score is F+.")
-            break 
-        if 2<=score_<3 :
-            print("your score is F.")
-            break
-    if 0<=score_<2 :
-        print("your score is G.")
-        break 
+    else :
+        print("you failed the exam.")
+    break
+    
+   
+       
+    
     
     
