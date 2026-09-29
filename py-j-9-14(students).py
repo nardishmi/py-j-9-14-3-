@@ -66,7 +66,7 @@ while True:
         if 2<=score_<3 :
             print("your score is F.")
             break
-    if 0<score_<2 :
+    if 0<=score_<2 :
         print("your score is G.")
         break 
     
